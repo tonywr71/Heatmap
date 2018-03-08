@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Heatmap</title>
+    <base href="~/" />
+
+    @*<link rel="stylesheet" href="~/css/leaflet.css" />
+
+        <script src="~/scripts/leaflet.js"></script>
+    <script src="~/scripts/heatmap.js"></script>
+    <script src="~/scripts/leaflet-heatmap.js"></script>*@
+
+    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+</head>
+<body>
+    @RenderBody()
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
